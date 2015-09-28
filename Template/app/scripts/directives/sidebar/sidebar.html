@@ -8,6 +8,7 @@
             
            
             
+<!--
              <li ng-class="{active: selectedMenu=='professor'}">
                         <a ui-sref="dashboard.professor" ng-click="selectedMenu='professor'"><i class="fa fa-group fa-fw"></i> Professors</a>
                     </li>
@@ -15,7 +16,20 @@
              <li ng-class="{active: selectedMenu=='courses'}">
                         <a ui-sref="dashboard.courses" ng-click="selectedMenu='courses'"><i class="fa fa-tasks fa-fw"></i> Courses</a>
                     </li>
+-->
             
+            <li ui-sref-active="active">
+
+                <a ui-sref="dashboard.professor"><i class="fa fa-group fa-fw"></i> Professors<span></span></a>
+
+            </li>
+            
+            <li ui-sref-active="active">
+
+                <a ui-sref="dashboard.courses"><i class="fa fa-tasks fa-fw"></i> Courses<span></span></a>
+
+            </li>  
+                        
             <li ui-sref-active="active">
 
                 <a ui-sref="dashboard.chart"><i class="fa fa-bar-chart-o fa-fw"></i> Charts<span></span></a>
