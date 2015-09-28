@@ -1,0 +1,21 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# Home page
+GET     /                             controllers.Application.dashboard
+GET     /charts/flot                  controllers.Charts.flot
+GET     /charts/morris                controllers.Charts.morris
+GET     /tables                       controllers.Application.tables
+GET     /forms                        controllers.Application.forms
+GET     /ui-elements/panels-and-wells controllers.UiElements.panelsAndWells
+GET     /ui-elements/buttons          controllers.UiElements.buttons
+GET     /ui-elements/notifications    controllers.UiElements.notifications
+GET     /ui-elements/typography       controllers.UiElements.typography
+GET     /ui-elements/icons            controllers.UiElements.icons
+GET     /ui-elements/grid             controllers.UiElements.grid
+GET     /pages/blank                  controllers.Pages.blank
+GET     /pages/login                  controllers.Pages.login
+
+# Map static resources from the /public folder to the /assets URL path
+GET     /assets/*file               controllers.Assets.at(path="/public", file)
