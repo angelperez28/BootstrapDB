@@ -1,7 +1,0 @@
-{
-  "name": "Play AngularJS RequireJS SBAdmin",
-  "description": "Sample application with Playframework 2, RequireJS, WebJars, AngularJS and SB Admin Bootstrap Template",
-  "repository": "https://github.com/mmizutani/play-angular-require-sbadmin",
-  "logo": "https://www.playframework.com/assets/images/logos/play_full_color.png",
-  "keywords": ["play", "scala", "bootstrap"]
-}

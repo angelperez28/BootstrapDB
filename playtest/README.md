@@ -1,82 +1,29 @@
-# Example application for Play+AngularJS+RequireJS+SB Admin Bootstrap Template.
+#Play Framework Project with [SB Admin 2](http://startbootstrap.com/template-overviews/sb-admin-2/) template
 
-## About
+[SB Admin 2](http://startbootstrap.com/template-overviews/sb-admin-2/) is an open source, admin dashboard template for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
 
-This template application shows how to organize your application with
-[Playframework 2](http://www.playframework.com), [WebJars](http://www.webjars.org),
-[RequireJS](http://www.requirejs.org) and [AngularJS](http://www.angularjs.org).
+## Live Demo
 
-This is based on the seed application (https://github.com/mariussoutier/play-angular-require-seed), which shows an alternative way of organizing modules than the official
-[Angular-Play-Seed](https://github.com/typesafehub/angular-seed-play).
+https://play-sb-admin-2.herokuapp.com/
 
-## Demo
-See https://play-angular-requirejs-sbadmin.herokuapp.com/
+## Getting Started
 
-or deploy your own
+To use this template, choose one of the following options to get started:
+* Download the latest release on Start Bootstrap
+* Fork this repository on GitHub
 
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+## Bugs and Issues
 
-## Code Organization
+Have a bug or an issue with this template? [Open a new issue](https://github.com/marceloemanoel/play-sb-admin2/issues) here on GitHub.
 
-The JavaScript modules are organized as follows:
+## Creator
+This project was created by **Marcelo Diniz**.
 
-    |- app
-    |-- assets
-    |--- js             <- contains all the JavaScript/CoffeeScript modules
-    |---- app.js        <- app module, wires everything together
-    |---- main.js       <- tells RequireJS how to load modules and bootstraps the app
-    |---- common/       <- a module, in this case
-    |----- main.js      <- main file of the module, loads all sub-files in this folder
-    |----- filters.js   <- common's filters
-    |----- directives/  <- common's directives
-    |----- services/    <- common's services
-    |---- ...
+* https://twitter.com/marceloemanoel
 
+Start Bootstrap was created by and is maintained by **David Miller**, Managing Parter at [Iron Summit Media Strategies](http://www.ironsummitmedia.com/).
 
-## Trying It Out
+* https://twitter.com/davidmillerskt
+* https://github.com/davidtmiller
 
-Firstly, clone this git repository:
-```bash
-git clone https://github.com/mmizutani/play-angular-require-sbadmin.git
-```
-Then run the `activator` shell/batch script in the top directory
-```bash
-./activator
-```
-to enter the sbt console.
-Finally, build and launch the application in either the development mode
-```bash
-> ~run
-```
-or the production mode
-```bash
-> start
-```
-
-### Dev Mode
-
-* Load dependencies via `sbt update`
-* Run via `sbt ~run`
-* Go to [localhost:9000](http://localhost:9000)
-
-This uses the normal JavaScript files and loads libraries from the downloaded WebJars.
-
-### Compile RequireJS Modules
-```
-> web-stage
-```
-
-### Prod Mode
-
-Running:
-
-* Run `sbt start -Dconfig.resource=prod.conf`
-
-Deployment:
-
-* Produce executable via `sbt clean dist`
-* Extract `unzip target/universal/play-angular-requirejs-sbadmin-1.0.zip`
-* Run `play-angular-requirejs-sbadmin-1.0/bin/play-angular-requirejs-sbadmin -Dhttp.port=9000 -Dconfig.resource=prod.conf`
-
-
-This uses the uglified JavaScript files, versioned and compressed assets, and loads WebJars resources from the jsDelivr CDN.
+Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
