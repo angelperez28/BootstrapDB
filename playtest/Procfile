@@ -1,0 +1,1 @@
+web: target/universal/stage/bin/play-angular-requirejs-sbadmin -Dhttp.port=${PORT} -Dplay.crypto.secret="<me]]0P1^@wzXP/=XC>^7_@D:AQ54f>yoXR9B6mIGg6d1eoyG0ksnt4HWMl1D:4I"
